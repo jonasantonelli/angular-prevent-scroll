@@ -1,3 +1,7 @@
-Prevent Scroll
-=============
-Diretiva responsável por tratar corretamento os scrolls dentro da página, fazendo com que cada um funcione independente do outro.
+# Angular Dropdown Box
+
+#### Directive Dropdown Box
+---
+This directive makes the treatment of the scrolls, so that work independently of each other.
+
+Check out the sample app: http://jonasantonelli.com/angular-prevent-scroll/sample/
