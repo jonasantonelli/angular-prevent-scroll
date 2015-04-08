@@ -1,8 +1,8 @@
 (function (angular) {
 
-    var app = angular.module("ja.preventscroll", []);
+    var preventScroll = angular.module("ja.preventscroll", []);
 
-    app.directive('preventScroll', [function () {
+    preventScroll.directive('preventScroll', [function () {
 	    return {
 	        restrict: 'A',
 	        link: function (ng, elem, attrs) {
