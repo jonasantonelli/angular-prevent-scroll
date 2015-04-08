@@ -12,14 +12,46 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Prevent Scroll (AngularJS Directive)</h1>
-      <h2 class="project-tagline">Diretiva responsável por não deixar que scrolls externos sejam ativados enquanto estiver acionado.</h2>
+      <h2 class="project-tagline">This directive makes the treatment of the scrolls, so that work independently of each other.</h2>
       <a href="https://github.com/jonasantonelli/angular-prevent-scroll" class="btn">View on GitHub</a>
       <a href="https://github.com/jonasantonelli/angular-prevent-scroll/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/jonasantonelli/angular-prevent-scroll/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <p>AngularJS Directive: responsável por tratar corretamente cada scroll dentro da página.</p>
+      <h1>
+<a id="angular-prevent-scroll" class="anchor" href="#angular-prevent-scroll" aria-hidden="true"><span class="octicon octicon-link"></span></a>Angular Prevent Scroll</h1>
+
+<h4>
+<a id="directive-prevent-scroll" class="anchor" href="#directive-prevent-scroll" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directive Prevent Scroll</h4>
+
+<hr>
+
+<p>This directive makes the treatment of the scrolls, so that work independently of each other.</p>
+
+<p>Download <a href="http://jonasantonelli.github.io/angular-prevent-scroll/">Angular Prevent Scroll (v.0.1.0)</a></p>
+
+<p>Check out the sample app: <a href="http://jonasantonelli.com/angular-prevent-scroll/sample/">http://jonasantonelli.com/angular-prevent-scroll/sample/</a></p>
+
+<h2>
+<a id="get-started-" class="anchor" href="#get-started-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get Started :</h2>
+
+<ul>
+<li>Add <code>jquery.js</code>, <code>angular.js</code>, <code>prevent-scroll.directive.js</code> to your code:</li>
+</ul>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>jquery.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>angular.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>prevent-scroll.directive.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+
+<ul>
+<li><p>Add <code>'ja.preventscroll'</code> as a module dependency to your app: <code>angular.module('app', ['ja.preventscroll'])</code></p></li>
+<li><p>Add a <code>prevent-scroll</code> attribute to your element content.</p></li>
+</ul>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">prevent-scroll</span> &gt;
+Content...
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/jonasantonelli/angular-prevent-scroll">Prevent Scroll (AngularJS Directive)</a> is maintained by <a href="https://github.com/jonasantonelli">jonasantonelli</a>.</span>
