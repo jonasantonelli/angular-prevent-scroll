@@ -1,6 +1,6 @@
 (function (angular) {
 
-    var app = angular.module("Application", []);
+    var app = angular.module("ja.preventscroll", []);
 
     app.directive('preventScroll', [function () {
 	    return {
