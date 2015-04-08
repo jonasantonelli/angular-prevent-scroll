@@ -19,6 +19,7 @@ Check out the sample app: http://jonasantonelli.com/angular-prevent-scroll/sampl
 
  - Add a `prevent-scroll` attribute to your element content.
 ```html
-<div class="col-md-4 prevent-scroll" >
+<div prevent-scroll >
+Content...
 </div>
 ```
