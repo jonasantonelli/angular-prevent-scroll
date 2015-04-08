@@ -6,9 +6,7 @@
 	    return {
 	        restrict: 'A',
 	        link: function (ng, elem, attrs) {
-	                
-        		debugger;
-
+	              
 	            elem.on('DOMMouseScroll mousewheel', function (event) {
 
 	                var $this = $(this),
@@ -34,7 +32,6 @@
 	                }
 
 	            });
-
 
 	            // Prevent Default
 	            function prevent(event) {
