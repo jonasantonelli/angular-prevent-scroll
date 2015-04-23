@@ -6,8 +6,6 @@ This directive makes the treatment of the scrolls, so that work independently of
 
 Download [Angular Prevent Scroll (v.0.1.0)](http://jonasantonelli.github.io/angular-prevent-scroll/)
 
-Check out the sample app: http://jonasantonelli.com/angular-prevent-scroll/sample/
-
 
 ## Get Started :
 
